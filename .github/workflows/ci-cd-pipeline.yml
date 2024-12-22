@@ -24,6 +24,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: '17'
+          distribution: ''
 
       # Étape 3 : Compiler le projet
       - name: Build with Maven
