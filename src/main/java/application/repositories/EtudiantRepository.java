@@ -68,13 +68,11 @@ public class EtudiantRepository {
         parameters.add(e.getTelephone());
         parameters.add(e.getTelephoneParent());
         parameters.add(e.getEmailParent());
-        parameters.add(e.getDateNaissance()); // Format date appropriately
+        parameters.add(e.getDateNaissance());
         parameters.add(e.getClasse().getId());
         parameters.add(e.getId());
 
-        System.out.println(e.getId());
-
-        // Assuming dbClient is an instance of some database client class capable of
+        System.out.println(" DEBOGUING !");
         // executing SQL commands
         dbClient.executeCommand(false, query, parameters);
     }

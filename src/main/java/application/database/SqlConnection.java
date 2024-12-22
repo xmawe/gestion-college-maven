@@ -8,7 +8,7 @@ public class SqlConnection {
     private static Connection conn;
     private static final String URL = "jdbc:mysql://localhost:3306/gestion-college-javafx";
     private static final String USER = "root"; // Consider moving to config
-    private static final String PASSWORD = ""; // Consider moving to config
+    private static final String PASSWORD = "Qatar123.0"; // Consider moving to config
 
     static {
         try {
